@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
+    <title>PARIS</title>
+    <style>
+        body {
+            font-family: Arial,Helvetica,sans-serif;
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        header {
+            background-image: url("/img/paris_top.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 850px;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        hr {
+            margin: 3% 5%;
+        }
+        header nav {
+            top: 0;
+            padding: 3% 0;
+            
+        }
+        header nav ul {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        header nav ul li {
+            list-style-type: none;
+        }
+        
+        header .top {
+            text-align: center;
+        }
+        header .top_text {
+            position: absolute;
+            top: 32%;
+            left: 0;
+            right: 0;
+            color: #fff;
+            font-family: open sans,Helvetica,Arial,sans-serif;
+        }
+        h5 {
+            font-weight: lighter;
+            font-size: 20px;
+            letter-spacing: 3px;
+            margin: 0;
+        }
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-weight: bolder;
+            font-size: 100px;
+            letter-spacing: 18px;
+            margin: 0 0 3% 0;
+        }
+        h3 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        main .container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        .main_container {
+            display: flex;
+            margin-bottom: 8%;
+        }
+        .main_container img {
+            width: 33%;
+            height: 500px;
+            object-fit: cover;
+        }
+        .signup_title {
+            margin: 10% 0;
+            /* color: #fff; */
+            letter-spacing: 2.5px;
+        }
+        .signup_container {
+            width: 50%;
+            margin: 0 auto;
+            
+        }
+        .signup_box {
+            /* background-color: rgb(231, 215, 185); */
+            padding: 5%;
+        }
+        .signup_box input {
+            margin-bottom: 6%;
+            font-size: 15px;
+        }
+        .signup_box button {
+            padding: 2% 7%;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border-radius: 25px;
+            background-color: #000;
+            color: #fff;
+        }        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#landmark">LANDMARKS</a></li>
+                <li><a href="#history">HISTORY</a></li>
+                <li><a href="#food">FOODS</a></li>
+                <li><a href="#contact">CONTACS</a></li>
+            </ul>
+        </nav>
+        <div class="top">
+            <div class="top_text">
+                <h5>WELCOME TO</h5>
+                <h1>paris</h1>
+                <h5>FEEL IT, EAT IT, LEARN IT...</h5>
+            </div>
+            
+        </div>
+    </header>
+    <hr> 
+    <main>
+        <section id="landmark">
+            <div class="container">
+                <h3>Landmarks</h3>
+                <div class="main_container">
+                    <img src="/img/landmark1.jpg" alt="">
+                    <img src="/img/landmark2.jpg" alt="">
+                    <img src="/img/landmark3.jpg" alt="">         
+                </div>
+            </div>
+        </section>
+        <section id="history">
+            <div class="container">
+                <h3>History</h3>
+                <div class="main_container">
+                    <img src="/img/history1.jpg" alt="">
+                    <img src="/img/history2.jpg" alt="">
+                    <img src="/img/history3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="food">
+            <div class="container">
+                <h3>Foods</h3>
+                <div class="main_container">
+                    <img src="/img/food1.jpg" alt="">
+                    <img src="/img/food2.jpg" alt="">
+                    <img src="/img/food3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                
+            </div>
+        </section>
+        <hr>
+        <section id="signup">
+                <div class="signup_container">
+                    <div class="signup_title">
+                        <h3>BC Company Signup form</h3>
+                    </div>
+                    <form class="signup_box">
+                        <input type="text" placeholder="Full name" style="width: 70%;"><br>
+                        <input type="tel" placeholder="Phone number" style="width: 70%;"><br>
+                        <input type="text" placeholder="Email adress" style="width: 70%;"><br>
+                        <input type="password" placeholder="Password" style="width: 70%;"><br>
+                        <input type="password" placeholder="Confirm your password" style="width: 70%;"><br>
+                        <input type="checkbox">&nbsp;Do you agee to this term and condition?&nbsp;&nbsp;<a href="#">More details.</span><br>
+                        <button>Sign in</button>
+                    </form>
+                </div>
+            </section>
+    </main>  
+</body>
+</html>
